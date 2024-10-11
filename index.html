@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="to-do-list.png">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="todoContainer">
+            <div class="heading">
+                <h1>WORKS-TO-DOS</h1>
+                <!-- <img src="to-do-list.png"> -->
+            </div>
+            <p class="line first">Enter text into the input field to add items to your list.</p>
+            <p class="line second">Click the "Done" Button to mark it as complete.</p>
+            <p class="line third">Click the "Remove" Button to remove the item from your list.</p>
+            <div class="inputs">
+                <input type="text" placeholder="Enter Your Task" id="taskInput">
+                <button class="btn">Add Task</button>
+            </div>
+            <div class="task-container">
+                <ul class="task-list">
+                    <!--Task are adding here-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
